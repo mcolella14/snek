@@ -33,6 +33,20 @@ canvas{
     width: 700px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     color: lime;
     margin-bottom: 20px;
+}
+button{
+    background: black;
+    color: lime;
+    border-style: solid;
+    border-color: lime;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px white;
+}
+button:hover{
+    background: lime;
+    color: black;
 }
